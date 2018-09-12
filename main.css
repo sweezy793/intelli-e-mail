@@ -1,0 +1,12 @@
+#textarea2
+{height: 6rem;}
+
+
+.input-field input:focus + label, #textarea2:focus:not([readonly]) + label {
+    color: #cfd8dc !important;
+}
+
+.row .input-field input:focus, #textarea2:focus:not([readonly]) {
+    border-bottom: 1px solid #cfd8dc !important;
+    box-shadow: 0 1px 0 0 #cfd8dc !important
+}
